@@ -36,10 +36,15 @@ section input{
     margin-bottom: 2%;
 }
 article{
-    display: flex;
-    justify-content: space-around;
+    display: inline-block
 }
-.contenedorGrafico .contenedorHero{
-    height: 300px;
+
+#imagenHeroe{
     width: 50%;
+}
+
+
+.contenedorHero{
+    width: 100%;
+    text-align: center;
 }

@@ -18,17 +18,33 @@
     <img src="assets/img/sh1.jpg" alt="">
     <div>
         <h1>Encuentra tu SuperHero</h1>
-        <p>Ingresa el número del SuperHero a buscar</p>
+        
     </div>
     <form id="formHero">
-        <input type="text"><br>
-        <button id="botonHero" type="submit">Buscar</button>
+        <label for="txtSuperheroe" class="form-label">Ingresa el número del SuperHero a buscar</label>
+        <input type="text" id="txtSuperheroe"><br>
+        <button id="superheroeHelp" type="submit">Buscar</button>
     </form>
 </section>
-<article>
-    <div class="contenedorHero">1</div>
-    <div class="contenedorGrafico">2</div>
+<article class="row">
+    <!-- <p id="mensajeHeroe"></p> -->
+    <div class="contenedorHero">
+        <img id="imagenHeroe" src="" class="img-fluid" alt="imagenHeroe">
+        <p id="nombreHeroe">Nombre: </p>
+        <p id="conexionesHeroe"></p>
+        <p id="publicado"></p>
+        <p id="ocupacion"></p>
+        <p id="apa"></p>
+        <p id="altura"></p>
+        <p id="peso"></p>
+        <p id="alianzas"></p>
+    </div>
+    <div  id="chartContainer" style="height:300px">
+        
+    </div>
 </article>
-    
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
