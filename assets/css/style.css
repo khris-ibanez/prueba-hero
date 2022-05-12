@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+}
+nav{display: flex;
+    background-color: black;
+    height: 60px;
+}
+nav img{
+    width: 50px;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+nav p{
+    display: flex;
+    align-self: center;
+    color: white;
+    padding-left: 4px;
+}
+section{
+    display: block;
+    text-align: center;
+}
+section img{
+    width: 40%;
+}
+section div{
+    padding: 1% 25%;
+    text-align: left;
+}
+section form{
+    text-align:left ;
+    padding: 1% 25%;
+}
+section input{
+    width: 100%;
+    margin-bottom: 2%;
+}
+article{
+    display: flex;
+    justify-content: space-around;
+}
+.contenedorGrafico .contenedorHero{
+    height: 300px;
+    width: 50%;
+}
